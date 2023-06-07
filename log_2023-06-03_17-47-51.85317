@@ -1,0 +1,53 @@
+17:47:51.348286 [    7f87d409f177] --- SIGSTOP (Stopped (signal)) @ 0 (0) ---
+17:47:51.348354 [    7f87d409f177] --- SIGSTOP (Stopped (signal)) @ 0 (0) ---
+17:47:51.348497 [    7f87d4182c57] socket(PF_FILE, SOCK_STREAM, 0) = 11 <0.000072>
+17:47:51.348778 [    7f87d44625fe] fcntl(11, F_GETFL) = 0x2 (flags O_RDWR) <0.000007>
+17:47:51.348826 [    7f87d44625fe] fcntl(11, F_SETFL, O_RDWR|O_NONBLOCK) = 0 <0.000036>
+17:47:51.348894 [    7f87d4462831] connect(11, {sa_family=AF_FILE, path="/var/run/mysqld/mysqld.sock"}, 29) = 0 <0.000048>
+17:47:51.349008 [    7f87d44625fe] fcntl(11, F_SETFL, O_RDWR) = 0 <0.000013>
+17:47:51.349073 [    7f87d4174b84] poll([{fd=11, events=POLLIN|POLLERR|POLLHUP}], 1, 1471228928) = 1 ([{fd=11, revents=POLLIN}]) <0.000220>
+17:47:51.349349 [    7f87d44628da] recvfrom(11, "c\0\0\0", 4, MSG_DONTWAIT, NULL, NULL) = 4 <0.000014>
+17:47:51.349432 [    7f87d4174b84] poll([{fd=11, events=POLLIN|POLLERR|POLLHUP}], 1, 1471228928) = 1 ([{fd=11, revents=POLLIN}]) <0.000011>
+17:47:51.349490 [    7f87d44628da] recvfrom(11, "\n5.7.21-20-beget-5.7.21-20-1-log\0\266\21\333\0048`\21\fNZl@\0\377\367!\2\0\377\201\25\0\0\0\0\0\0\0\0\0\0Duo\30\16K:SuuFs\0mysql_native_password\0", 103, MSG_DONTWAIT, NULL, NULL) = 99 <0.000009>
+17:47:51.349556 [    7f87d4462a5a] sendto(11, "\203\0\0\1\215\242\n\0\0\0\0\300!\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0v90817zk_klienti\0\24\367\2548\235\332)\306\2\221\3359J\271\220\302\203\260\276\207nv90817zk_klienti\0mysql_native_password\0\25\f_client_name\7mysqlnd", 135, MSG_DONTWAIT, NULL, 0) = 135 <0.000022>
+17:47:51.349632 [    7f87d4174b84] poll([{fd=11, events=POLLIN|POLLERR|POLLHUP}], 1, 1471228928) = 1 ([{fd=11, revents=POLLIN}]) <0.000448>
+17:47:51.350124 [    7f87d44628da] recvfrom(11, "\7\0\0\2", 4, MSG_DONTWAIT, NULL, NULL) = 4 <0.000008>
+17:47:51.350163 [    7f87d4174b84] poll([{fd=11, events=POLLIN|POLLERR|POLLHUP}], 1, 1471228928) = 1 ([{fd=11, revents=POLLIN}]) <0.000008>
+17:47:51.350198 [    7f87d44628da] recvfrom(11, "\0\0\0\2\0\0\0", 103, MSG_DONTWAIT, NULL, NULL) = 7 <0.000012>
+17:47:51.350284 [    7f87d4462a5a] sendto(11, "R\0\0\0\3INSERT INTO `users` (`name`, `number`, `sms`) VALUES ('Beget', '1111111', 'test')", 86, MSG_DONTWAIT, NULL, 0) = 86 <0.000012>
+17:47:51.350332 [    7f87d4174b84] poll([{fd=11, events=POLLIN|POLLERR|POLLHUP}], 1, 1471228928) = 1 ([{fd=11, revents=POLLIN}]) <0.000189>
+17:47:51.350548 [    7f87d44628da] recvfrom(11, "2\0\0\1\377&\4#23000Duplicate entry 'Beget' for key 'PRIMARY'", 96, MSG_DONTWAIT, NULL, NULL) = 54 <0.000011>
+17:47:51.350649 [    7f87d4170aa7] chdir("/") = 0 <0.000021>
+17:47:51.350713 [    7f87d4462a5a] sendto(11, "\1\0\0\0\1", 5, MSG_DONTWAIT, NULL, 0) = 5 <0.000013>
+17:47:51.350753 [    7f87d4462511] close(11) = 0 <0.000016>
+17:47:51.350802 [    7f87d4135b07] setitimer(ITIMER_PROF, {it_interval={0, 0}, it_value={0, 0}}, NULL) = 0 <0.000009>
+17:47:51.351161 [    7f87d41705a1] fcntl(9, F_SETLK, {type=F_UNLCK, whence=SEEK_SET, start=0, len=0}) = 0 <0.000013>
+17:47:51.351270 [    7f87d4135b07] setitimer(ITIMER_PROF, {it_interval={0, 0}, it_value={0, 0}}, NULL) = 0 <0.000007>
+17:47:51.351363 [    7f87d446243e] read(10, 0x562673f440c8, 8000) = -1 EAGAIN (Resource temporarily unavailable) <0.000010>
+17:47:51.351412 [    7f87d41762f4] writev(10, [{"HTTP/1.1 200 OK\r\nDate: Sat, 03 Jun 2023 14:47:50 GMT\r\nServer: Apache/2.4.55 (Unix)\r\nX-Powered-By: PHP/5.6.40\r\nContent-Length: 85\r\nContent-Type: text/html\r\n\r\n", 157}, {"\r\n\r\n<p>\320\237\321\200\320\276\320\270\320\267\320\276\321\210\320\273\320\260 \320\276\321\210\320\270\320\261\320\272\320\260: Duplicate entry 'Beget' for key 'PRIMARY'</p>", 85}], 2) = 242 <0.000081>
+17:47:51.351569 [    7f87d4175c57] getrusage(RUSAGE_SELF, {ru_utime={0, 25463}, ru_stime={0, 3459}, ...}) = 0 <0.000015>
+17:47:51.351672 [    7f87d4462371] write(7, "{ \"@timestamp\": \"2023-06-03T17:47:50+0300\", \"@fields\": { \"vhost\": \"madebyhandn.ru\", \"ip\": \"45.8.118.70\", \"method\": \"POST\", \"url\": \"/v90817zk_klienti.php\", \"user\": \"-\", \"status\": \"200\", \"user_agent\": \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36\", \"referer\": \"https://madebyhandn.ru/\", \"bytes_sent\": \"85\", \"real_time\": \"713587\", \"utime\": \"25463\", \"stime\": \"3459\"},  \"@message\": \"madebyhandn.ru 45.8.118.70 - - [03/Jun/2023:17:47:50 +0300] \\\"POST /v90817zk_klienti.php HTTP/1.1\\\" 200 85 \\\"https://madebyhandn.ru/\\\" \\\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36\\\" 713587 25463:3459\" }\n", 717) = 717 <0.000018>
+17:47:51.351797 [    7f87d4144227] times({tms_utime=2, tms_stime=0, tms_cutime=0, tms_cstime=0}) = 2052943097 <0.000009>
+17:47:51.351911 [    7f87d4462511] close(3) = 0 <0.000010>
+17:47:51.351960 [    7f87d4174b84] poll([{fd=10, events=POLLIN}], 1, 1000) = 1 ([{fd=10, revents=POLLIN}]) <0.857930>
+17:47:52.209970 [    7f87d446243e] read(10, "", 8000) = 0 <0.000011>
+17:47:52.210151 [    7f87d446092e] futex(0x7f87bc014948, FUTEX_WAKE_PRIVATE, 2147483647) = 0 <0.000008>
+17:47:52.210186 [    7f87d416f773] fstat(0, {st_mode=S_IFIFO|0600, st_size=0, ...}) = 0 <0.000010>
+17:47:52.210247 [    7f87d416f773] fstat(0, {st_mode=S_IFIFO|0600, st_size=0, ...}) = 0 <0.000007>
+17:47:52.210292 [    7f87d416f773] fstat(0, {st_mode=S_IFIFO|0600, st_size=0, ...}) = 0 <0.000008>
+17:47:52.214390 [    7f87d4144ab6] exit_group(0) = ?
+
+Opened file descriptors at strace start:
+0 -> pipe:[804918814]
+1 -> pipe:[804918815]
+2 -> pipe:[804907117]
+3 -> /home/v/v90817zk/v90817zk.beget.tech/public_html/v90817zk_klienti.php
+4 -> pipe:[804907116]
+5 -> pipe:[804907116]
+6 -> anon_inode:[eventpoll]
+7 -> pipe:[804907118]
+8 -> /tmp/ZCUD5ZXAN8 (deleted)
+9 -> /tmp/.ZendSem.qBWHcM (deleted)
+10 -> socket:[805396827]
+Socket: 805396827 L:127.56.0.1:80 R:127.0.0.1:53475
+strace -- version 4.5.20

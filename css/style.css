@@ -1,0 +1,434 @@
+html{
+    overflow:hidden-x;
+    
+    min-width:412px;
+}
+.navbar-brand{
+    font-size: 40px;
+    }
+    .navbar{
+   color: #E85A4F;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-family: 'Karla', sans-serif;
+    font-size: 40px;
+    
+  }
+
+   .navbar-nav{
+    margin-left: auto;
+    font-size: 20px;
+    padding: 20px;
+    font-family: 'Karla', sans-serif;
+    
+  }
+.header__tel{
+  margin-top: -1%;}
+  .header__tel a{
+    font-size: 22px;
+    text-decoration: none;
+    font-family: 'Karla', sans-serif;
+    color: #E85A4F;
+    
+  }
+  .header__tel a:hover{
+    text-decoration: none;
+    color: #E85A4F;}
+
+  /*промо-баннер*/
+  .intro-section {
+    
+    background-color:#E98074;
+    
+    position: static; }
+  .intro-section > .container {
+    
+   
+    z-index: 7;
+    position: static; }
+  .intro-section, .intro-section .container .row {
+    height: 10vh;
+    min-height: 500px; 
+    
+  }
+  
+  /*2 блок,о изделиях*/
+  .intro-section:before {
+    
+    position: static;
+    height: 100%;
+    width: 100%;
+    
+    border-bottom-right-radius: 0px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; }
+  
+  .intro-section:before {
+    width: 100%; 
+   } 
+
+.intro-section h1 {
+  margin-top:8%;
+  font-size: 3rem;
+  font-family: 'Karla', sans-serif;
+  color: #fff;
+  }
+ 
+ 
+.intro-section .desc {
+color: white;
+font-size: 1.4rem;
+max-width: 477px; }
+.intro-section a {
+
+color: #fff;
+text-decoration: underline; }
+.intro-section a:hover {
+  text-decoration: none; 
+}
+.intro-section .btn {
+text-decoration: none;
+border: white; 
+color:#E85A4F;
+background-color: white;
+border-radius: 7PX;}
+
+
+.arrow-down {
+margin: 7%;
+margin-left: 50%;
+
+}
+.arrow-down span {
+display: block;
+width: 25px;
+height: 25px;
+border-bottom: 2px solid #D8C3A5;
+border-right: 2px solid #D8C3A5;
+transform: rotate(45deg);
+margin: -15px;
+animation: arrow-down 2s infinite;
+text-align: center;
+
+
+
+
+}
+.arrow-down span:nth-child(2){
+animation-delay: -0.2s;
+}
+.arrow-down span:nth-child(3){
+animation-delay: -0.4s;
+}
+@keyframes arrow-down {
+0%{
+    opacity: 0;
+    transform: rotate(45deg) translate(-20px,-20px);
+}
+50%{
+    opacity: 1;
+}
+100%{
+    opacity: 0;
+    transform: rotate(45deg) translate(20px,20px);
+}
+}
+
+
+
+.site-section {
+font-family:'Karla', sans-serif ;
+padding: 2.5em 0;
+}
+
+.site-section {
+  padding: 5em 0; } 
+.site-section.site-section-lg {
+padding: 4em 0; }
+
+.site-section-heading {
+
+padding-bottom: 20px;
+margin-bottom: 0px;
+position: relative;
+font-size: 2.5rem; }
+ 
+.site-section-heading {
+  font-size: 3rem; } 
+.heading {
+color: #E85A4F;
+}
+
+.point h3{
+color: #E85A4F;
+margin-top: 10%;}
+.point p{
+text-align:justify;
+}
+.gal{
+min-width: 412px;
+text-align: center;}
+.img-fluid{
+width: 132px;
+height: 132px;
+margin: 0 auto;
+overflow: hidden;
+border-radius: 50%;
+
+width: auto;
+height: 100%;
+margin: 0 auto;}
+/*3 блок,о производителе*/
+.aboutme{
+font-family: 'Karla' sans-serif;
+text-align: justify;
+margin-left: 5%;
+margin-top: 12%;
+
+    
+}
+.lin{
+border: 2px solid #D8C3A5;
+margin-top: 10%;
+border-radius: 7px;
+margin-left: 10%;
+}
+.lin h3{
+font-family: 'Karla' sans-serif;
+text-align: center;
+margin-top: 10px;
+margin-bottom: 10px;
+margin-left: 10px;
+margin-right: 10px;
+
+
+}
+.site-section .btn {
+text-decoration: none;
+border:#E85A4F ; 
+color:white;
+background-color: #E85A4F;
+border-radius: 7PX;
+margin-top: 5%;
+
+
+}
+.bat{
+
+text-align: center;
+margin-left: 2%;
+}
+
+.why{
+
+margin-left: 10%;
+text-align: left;}
+.why h1{
+text-align: left;}
+.box{
+border-radius:7px;
+height: 95%;
+width: 90%;
+border: 2px solid #E85A4F;
+box-sizing: border-box;
+width: 100%;
+height: 100%;
+left: 10px;
+right: 10px;
+
+}
+.box h3{
+font-family: 'Karla' sans-serif;
+text-align: left;
+margin-top: 30px;
+margin-left: 30px;
+margin-right: 30px;
+margin-bottom: 30px;
+}
+.box2{
+height: 95%;
+width: 90%;
+border: 2px solid #FFA207;
+box-sizing: border-box;
+width: 100%;
+height: 100%;
+left: 10px;
+right: 10px;
+margin-top: 30px;
+margin-left: -45px;
+border-radius:7px;
+}
+.box2 h3{
+font-family: 'Karla' sans-serif;
+text-align: left;
+margin-top: 30px;
+margin-left: 30px;
+margin-right: 30px;
+margin-bottom: 30px;
+}
+.info{
+font-family: 'Karla' sans-serif;
+text-align: left;
+font-size: 40px;
+border-bottom:  solid;
+border-top: 1rem solid #E98074 ;
+
+}
+.info strong{
+color: #E85A4F;}
+
+
+.gar{
+margin-top: 5%;
+margin-bottom: 5%;
+
+}
+
+.contact .col-lg-12 {
+margin-top: 5%;
+text-align: center;
+margin-right: 12%;
+
+}
+.contact2{
+margin-left: 2%;
+}
+
+.line{
+border-top:  solid #E98074;
+margin-top: -3%;
+
+}
+.contact-form{
+margin-top: 7%;}
+
+.form{
+margin-top: 8%;}
+
+footer{
+background-color: #E98074;
+margin: 0 auto;
+color: #ffffff;
+font-family: 'Karla' sans-serif;
+
+}
+
+.footer .col{
+text-align: right;
+font-family: 'Karla' sans-serif;
+margin-top: 30px;
+margin-bottom: 30px;
+}
+
+footer .row{
+    font-family: 'Karla' sans-serif;
+}
+.logo{
+text-align: left;}
+
+
+.knopki .btn {
+  text-decoration: none;
+border:#E85A4F ; 
+color:white;
+background-color: #E85A4F;
+border-radius: 7PX;
+margin-top: 1%;}
+
+  .price{
+  text-align: center;
+margin-top: 2%;
+;
+margin-left: 30%;
+width: 40%;
+
+}
+button a{
+            border:0px;
+        }
+        .card .btn {
+          text-decoration: none;
+border:#E85A4F ; 
+color:white;
+background-color: #E85A4F;
+border-radius: 7PX;}
+.card-body a{
+outline: none !important
+        }
+.card .btn:hover{ 
+    background-color:black;
+}
+        }
+        .card-body{
+          font-family: 'Karla', sans-serif;
+        }
+        .card-img-top{
+        width: 286px;
+      height: 286px;}
+       .gal .col-lg-3{
+      text-align: justifity;
+    margin-left:6%;
+    padding:3%;
+    
+  }
+  
+  .first{
+  text-align: justify;
+  
+  
+  border-top:  solid #E98074;
+}
+.first h1{
+  font-family: 'Karla', sans-serif;
+  margin-top: 2%;
+color: #E85A4F;
+text-align: center;}
+.first strong{
+color: #E85A4F;}
+   h1.individ {
+      text-align:justify;
+      color: #E85A4F;
+    font-family: 'Karla', sans-serif;
+    margin-left:25%;
+    margin-bottom:5%;
+      
+  }
+  .kont {
+  text-align: center;
+  border-top:  solid #E98074;
+}
+.kont h1{
+text-align: center;
+color: #E85A4F;
+margin-top: 2%;
+font-family: 'Karla', sans-serif;
+}
+.kont h2{
+margin-top: 2%;
+
+  text-align: center;
+  margin-top: 2%;
+  font-family: 'Karla', sans-serif;
+font-size: 28px;}
+
+.kont li{
+  font-family: 'Karla', sans-serif;
+  font-size: 30px;
+  list-style-type:  none;
+  
+  
+}
+
+
+  .nav-item:hover{
+  text-decoration: underline;}
+  
+  .skachat{
+      margin-left:50%;
+      margin-bottom:2%;
+      font-size:40px
+      color:red;
+  }
+
+ 
